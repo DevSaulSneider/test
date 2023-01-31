@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: rgb(163, 233, 136);
+    margin: 5px;
+}
+
+#contenedor{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border: 20px solid black;
+}
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+p{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+#flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#flex div{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 20px;
+}
