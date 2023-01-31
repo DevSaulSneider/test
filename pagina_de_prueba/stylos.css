@@ -19,10 +19,6 @@ h1{
 }
 p{
     text-align: justify;
-    background: red;
-    border: 2px solid black;
-    margin: 20px;
-    padding: 20px;
 }
 #flex{
     display: flex;
@@ -30,9 +26,37 @@ p{
     justify-content: space-between;
 }
 
-#flex div{
-    border: 2px solid black;
-    padding: 5px;
+#caja1{
+    background: red;
+    border: 5px solid black;
     margin: 20px;
+    padding: 20px;
+}
+
+#caja2{
     background: blue;
+    border: 5px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+#caja3{
+    background: violet;
+    border: 5px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+#caja4{
+    background: green;
+    border: 5px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+#caja5{
+    background: yellow;
+    border: 5px solid black;
+    margin: 20px;
+    padding: 20px;
 }
